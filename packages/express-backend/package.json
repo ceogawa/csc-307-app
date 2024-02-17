@@ -6,7 +6,8 @@
   "main": "backend.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run start"
+    "dev": "npx nodemon backend.js",
+    "start": "node backend.js"
   },
   "repository": {
     "type": "git",
